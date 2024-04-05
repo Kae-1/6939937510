@@ -1,0 +1,1001 @@
+@-moz-document domain("habitica.com") {
+
+
+/* ❗️NOTICE: IF YOU WANNA CUSTOMISE THEME YOURSELF */
+/* LOOK FOR THE AREA BETWEEN */
+
+/* CUSTOMISABLE AREA BELOW */
+/* CUSTOMISABLE AREA ABOVE */
+
+/* CHECK IN THE GREY TEXT TO KNOW WHAT YOU ARE LOOKING AT */
+
+/* ❗️MENU BELOW 👇 */
+
+/* Party group chat BACKGROUND */
+
+/* TASKS COLUMNS BACKGROUND COLOUR */
+
+/* AVATAR BACKGROUND IMAGE */
+
+/* WEBPAGE BACKGROUND IMAGE */
+
+/* HEADER BACKGROUND IMAGE */
+
+/* ADD TASK BUTTON BACKGROUND */
+
+/* UNKNOWN BUTTON BACKGROUND */
+
+/* TOPBAR BACKGROUND COLOUR */
+
+/* UNKNOWN SECONDARY SIDEBAR */
+
+/* UNKNOWN */
+
+/* TAGS COLOUR */
+
+
+
+
+/* CUSTOMISABLE AREA BELOW */
+
+/* TOPBAR BACKGROUND COLOUR */
+.topbar {
+	background-color: #4C4C4C14 !important;
+}
+
+/* AVATAR BACKGROUND IMAGE */
+.background_violet {  
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-image: url(https://raw.githubusercontent.com/Kae-1/6939937510/main/julie-lafille-gif-outro.gif)!important;
+}
+
+/* HEADER BACKGROUND IMAGE */
+#app-header {  
+	background-color: #AFAFAF00 !important;
+}
+
+/* WEBPAGE BACKGROUND IMAGE */
+body {  
+	background-image: url(https://images.unsplash.com/photo-1607457561901-e6ec3a6d16cf?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)!important;
+	background-position: center;
+	background-repeat: repeat;
+	background-attachment: scroll;
+	background-size: cover;
+}
+
+
+.container-fluid {
+	background: #B3B3B300;
+}
+
+/* CUSTOMISABLE AREA ABOVE */
+
+.pending-health-bar {
+	background-size: 12px 12px;
+	animation: animate 8s linear infinite;
+	background-image: linear-gradient( 135deg, #ffb445, #ffb445 25%, #ffd391 25%, #ffd391 50%, #ffb445 50%, #ffb445 75%, #ffd391 75%, #ffd391 100%);
+}
+@keyframes animate {
+	0% {
+		background-position: 100px 0;
+	}
+	100% {}
+}
+
+
+
+.progress {
+	overflow: visible;
+}
+
+/* Party group chat BACKGROUND */
+.row.chat-row .container-fluid {
+	background: #FFAFB600!important;
+}
+
+/* TASKS COLUMNS BACKGROUND COLOUR */
+.tasks-list {
+	background: #ffffff1a!important;
+	border: 1px solid #dedede;
+	box-shadow: 0 0.6px 1.8px rgba(0, 0, 0, 0.025), 0 5px 14px rgba(0, 0, 0, 0.05);
+}
+
+h1,
+h2,
+h5,
+h6 {
+	text-shadow: 1px 1px 5px white;
+}
+
+.group-plan-static.text-center .container h1,
+.group-plan-static.text-center .container h2,
+.group-plan-static.text-center .container h5,
+.group-plan-static.text-center .container h6,
+.group-plan-static.text-center .container p {
+	text-shadow: none;
+	color: #fff;
+}
+
+/* ADD TASK BUTTON BACKGROUND */
+.create-btn {
+    background-image: linear-gradient(12deg, #FF9DA51C 10%, #FF7580C9 100%)!important;
+	background-color: #FF758000 !important;
+	color: #FFF !important;
+	border-color: #FFAFB654!important;
+}
+.create-btn .svg-icon {
+    color: #FFFFFFE6 !important;
+}
+.create-btn {
+    position: relative; /* 如果原来没有设置定位，需要添加这一行 */
+    top: -85px; /* 向上移动100px *//* 其他样式保持不变 */
+    left: -8px;
+}
+.create-btn .pop-out {
+    position: relative; /* 如果原来没有设置定位，需要添加这一行 */
+    top: -100px; /* 向上移动100px *//* 其他样式保持不变 */
+    left: -105px;
+}
+
+/* UNKNOWN BUTTON BACKGROUND */
+.btn-success:hover:not(:disabled):not(.disabled) {
+	background-image: linear-gradient(120deg, #FFAFB6 0%, #FFAFB6 50%)!important;
+}
+
+
+.bg-health,
+.boss-health-bar {
+	background: #e0305a!important;
+}
+
+/* UNKNOWN SECONDARY SIDEBAR */
+.sidebar,
+.standard-sidebar,
+.secondary-menu,
+.btn-show-more {
+	background: #edeceeb8 !important;
+	box-shadow: 0 0.6px 1.8px rgba(0, 0, 0, 0.025), 0 5px 14px rgba(0, 0, 0, 0.05);
+}
+
+.item.item-empty,
+.group .items {
+	background: none !important;
+}
+
+.quest-boss {
+	animation: rotate 1s cubic-bezier(0.4, 0, 1, 1) infinite;
+}
+
+@keyframes rotate {
+	0% {
+		transform: translateY(0);
+	}
+	35% {
+		transform: translateY(10px);
+	}
+	50% {
+		transform: translateY(20px) scale(1.05, 0.95);
+	}
+	75% {
+		transform: translateY(10px);
+	}
+	100% {
+		transform: translateY(0);
+	}
+}
+
+
+
+
+
+
+
+
+
+/* UNKNOWN */
+.tasks-navigation .tags-list .custom-checkbox .custom-control-input:checked ~ .custom-control-label {
+	background-color: #FFE0E08F!important;
+	color: #fffffa !important;
+}
+
+
+
+
+
+
+
+
+}
+
+@-moz-document domain("habitica.com") {
+body {
+    --background-color-1: #FFFFFF29 !important; /* search bar */
+    --background-color-2: #FFFFFF24 !important; /* message boxes*/
+    --background-color-3: #DB122200 !important; /* RogueBG; TagsBtnBG; SkillBarBG; TasksBG */
+    --background-color-4: #F000 !important; /* tasks checklist Btn BG */
+    --background-color-5: #CC9AB100 !important;  /* insert boxes borders */
+    --background-color-purple: #FFFFFF69 !important; /* unknown  */
+    
+    --blue: #C5184C;
+    --green: #159667;
+    --red: #ff898b;
+    --red-dropdown: #FBC1C2;
+    --purple: #FFE6E9E8; 
+    /* streamline select hints; tasks number notion BG; mouse-on tasks box boarder */
+    --purple-dropdown: #FFF; /* user dropdown sidebar mouse-on select text colour */
+    
+    --text-hint-color: #8400384A;
+    --text-primary-color: #6d2b48;
+    --text-secondary-color: #751D2B80;
+    
+    --text-mana-color: #FF797E;
+    --text-gem-color: #33715599;
+    --text-gold-color: #794C01AD;
+    --text-hourglass-color: #bae6fd;
+    
+    --text-kae-small-text: #FF797E; /* all Task page small texts */
+    --kae-columns-top-hypen: #932D2A7D; 
+    --kae-columns-top-text: #9A312E; 
+    --kae-task-mouse-on-border: #FFFFFF14; 
+    --kae-edit-tags-text: #5B3435;
+
+    --text-footer-primary-color: #905D5F; /* tasks notes text */
+    --text-footer-secondary-color: #746263; /* message sidebar notion text */
+    
+}
+
+
+/*============================= OTHER COLOURS =============================== */
+/*============================= OTHER COLOURS =============================== */
+/*============================= OTHER COLOURS =============================== */
+
+/* tasks columns */
+.tasks-list {
+    background-color: #FFF0 !important;
+}
+
+.quest-active-section .quest-box {
+    color: #4e4a57 !important;
+}
+
+/* Dropdown menu, subscription form purple highlight */
+.dropdown-item.active,
+.dropdown-item:active,
+.dropdown-item:hover,
+#subscription-form .selected .subscription-text {
+    color: var(--purple-dropdown) !important;
+    background-color: rgba(163, 135, 255, .32) !important;
+}
+
+/* UNKNOWN YET */
+.btn-secondary:active,
+.btn-secondary:focus,
+.dropdown > .btn-secondary.dropdown-toggle:not(.btn-success):active,
+.dropdown > .btn-secondary.dropdown-toggle:not(.btn-success):focus,
+.show > .btn-secondary.dropdown-toggle:not(.btn-success):active,
+.show > .btn-secondary.dropdown-toggle:not(.btn-success):focus,
+.btn-secondary:not(:disabled):not(.disabled):hover.dropdown-toggle,
+.dropdown > .btn-secondary.dropdown-toggle:not(.btn-success):not(:disabled):not(.disabled):hover.dropdown-toggle,
+.show > .btn-secondary.dropdown-toggle:not(.btn-success):not(:disabled):not(.disabled):hover.dropdown-toggle,
+.btn-secondary:not(:disabled):not(.disabled):hover,
+.dropdown > .btn-secondary.dropdown-toggle:not(.btn-success):not(:disabled):not(.disabled):hover,
+.show > .btn-secondary.dropdown-toggle:not(.btn-success):not(:disabled):not(.disabled):hover {
+    background: var(--background-color-4) !important;
+    color: white !important;
+}
+
+/* unknown from DIVIDER COLOURS */
+.modal-header,
+.box.white {
+    border-color: #FFAEAF3D !important;
+}
+
+.badge-purple,
+span.badge.badge-round.badge-item.badge-clock,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label:before,
+.vdp-datepicker .vdp-datepicker__calendar .cell.selected,
+.vdp-datepicker .vdp-datepicker__calendar .cell.selected.highlighted,
+.vdp-datepicker .vdp-datepicker__calendar .cell.selected:hover,
+.suggestedDot {
+    background: #FF797E52 !important;
+}
+
+/* columns top tags selected text colour; others unknown */
+.filter.active,
+.nav-link.active,
+.sub-menu .sub-menu-item.active,
+.sub-menu .sub-menu-item:hover,
+.nav-item.active[data-v-bc94e650],
+.nav-item[data-v-bc94e650]:hover {
+    color: var(--kae-columns-top-text) !important;
+    border-color: var(--kae-columns-top-hypen) !important;
+}
+
+.item:hover,
+.task:hover .left-control,
+.task:hover .task-content,
+.task:hover .right-control,
+.custom-checkbox .custom-control-input:checked ~ .custom-control-label:before,
+.vdp-datepicker .vdp-datepicker__calendar .cell:not(.blank):not(.disabled).day:hover,
+.outer-option-background.active .option,
+.left-panel .selected .quest-wrapper {
+    border-color: var(--kae-task-mouse-on-border) !important;
+}
+
+
+
+
+/* Topbar drop-down colours apart from background */
+/* the background colour when a topbar drop-down item is checked */
+
+.topbar-item:hover .topbar-dropdown .topbar-dropdown-item.active {background:#FF858A !important}
+.topbar-dropdown-item {background: #FF858A!important;}
+.topbar .topbar-item:hover {background: #FF858A!important;}
+
+.topbar-item:hover .topbar-dropdown .topbar-dropdown-item.active:hover {background:#FFA5A8 !important}
+.topbar-dropdown-item:hover {background: #FFA5A8!important;}
+
+.topbar .topbar-item.active[data-v-0b0a2436]:not(:hover) {box-shadow: inset 0 -4px 0 #FFE7E899!important;}
+
+
+
+
+
+/* topbar icons */
+.topbar .svg-icon svg {color:#FF797E;}
+
+.topbar .svg-icon svg :hover {
+    color:#FFAFB6;
+    background:#FFAFB6;
+}
+
+.topbar .svg-icon svg :checked ~ .custom-control-label:before {
+    color:#FFAFB6;
+    background:#FF797E;
+}
+
+
+/* todo column icons */
+.tag .svg-icon svg {color:#FF3D43A8;}
+
+/* small texts colours */
+.small-text {color: var(--text-kae-small-text);}
+.todo .small-text {color:#FF797E }
+.daily .small-text{color:  #FF797E ;}
+.habit .small-text{color:  #FF797E ;}
+.reward .small-text{color:  #FF797E ;}
+.character-name{color:  #FF3C4B !important;}
+.character-level{color:  #912729 !important;}
+.progress-container > span{color:  #912729 !important;}
+
+
+
+/* Get started with party button */
+button{
+  	background-image: linear-gradient(12deg, #FF9DA51C 10%, #FF7580D1 100%)!important;
+	background-color: #FF75801C !important;
+	color: #FFF !important;
+	border-color: #FFAFB654 !important;
+}	
+
+
+/* YET UNKNOWN areas */
+
+.panel-body,
+.btn-xs,
+.nav-tabs a:hover,
+.filters .hrpg-input-group input,
+.filters .hrpg-input-group textarea,
+.task-add input, .task-add textarea,
+.task-checklist-edit>.checklist-form li input,
+.task-checklist-edit>.checklist-form li textarea,
+.list-at-user li,
+.table-striped td {
+  	background-image: linear-gradient(1deg, #FF9DA51C 10%, #FF7580 100%)!important;
+	background-color: #FF75802B !important;
+	color: #FFF !important;
+	border-color: #FFAFB654 !important;
+}	
+	.nav-tabs {
+		border-color: #FF797E !important;
+	}
+	.task-add > input:hover {
+		background-color: #FF797E !important;
+		border-color: #FF797E !important;
+	}
+	.task-add > input:focus {
+		background-color: #FF797E !important;
+		border-color: #FF797E75 !important;
+	}
+.pet-button {
+	background-color: #F00 !important;
+}
+button.active, .list-at-user li:hover, .progress-bar, .task-add>button {
+	background-color: #FF797E91 !important;
+	border-color: #FF797E !important;
+}
+	.progress {
+		background-color: #FFAFB691 !important;
+	}
+button.pet-button.active  {
+	background-color: #FF797E !important;
+	border-radius: 5px !important;
+}
+
+/* tags. edit tags text */
+.filter-panel .tags-header a{
+    color: var(--kae-edit-tags-text);
+}
+
+
+/* the topbar top right corner purple image*/
+.navbar {
+  background: #17171700!important;
+}
+
+
+
+
+/* tags filter panel background colour */
+.filter-panel{
+  background: #FFEAECF0!important;
+}
+/* TAGS COLOUR */
+.tasks-navigation .tags-list .custom-control-label {
+ 	box-shadow: 0 0.6px 1.8px rgba(0, 0, 0, 0.025), 0 5px 14px rgba(0, 0, 0, 0.05) !important;
+    color: #F8F8F8 !important;
+	padding-left: 9px !important;
+	padding-right: 13px !important;
+    padding-bottom: 0px !important;
+    padding-top: 10px !important;
+}
+.tasks-navigation .tags-list .custom-control-label:hover {
+    background-color: #FFD7DB !important;
+}
+.tasks-navigation .tags-list .custom-control .custom-control-label::before,
+.tasks-navigation .tags-list .custom-control-input:checked ~ .custom-control-label::before,
+.tasks-navigation .tags-list .custom-checkbox .custom-control-input:checked ~ .custom-control-label::after {
+	visibility: hidden !important;
+}
+.tasks-navigation .tags-list .custom-checkbox .custom-control-input:checked ~ .custom-control-label {
+	background-color: #FFC3C9 !important;
+	color: #fffffa !important;
+}
+
+
+/* .states-panel .equipment&costume area */
+.well {
+    background-image: linear-gradient(1deg, #F9F9F9 10%, #FF758014 100%)!important;
+	background-color: #F9F9F9 !important;
+	border-color: #FFF0 !important;
+}	
+
+/* the pop-up text colour when hover on items */
+h4,
+dt {
+  	color: #FFDEE0 !important  
+}
+
+
+
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+/*===========================================  BUFFER ZONE  =========================================== */
+
+
+/* SURFACE COLORS */
+/* Background 1 - Background surface color */
+body,
+.secondary-menu,
+.quick-add:focus,
+.modal .customize-section,
+#private-message,
+.well,
+.well .box {
+    background-color: var(--background-color-1) !important;
+}
+
+/* Background 2 - Surfaces above backgrounds */
+.tasks-list,
+.standard-sidebar,
+.sidebar,
+:not(navbar-dark) > nav > .nav-link:hover,
+footer,
+.group .items,
+.card,
+.subscribe-card,
+.box,
+.challenge,
+.tier-list li,
+.task-modal-content,
+.modal-content,
+.stats-column,
+#task-modal .advanced-settings,
+#task-modal .task-modal-content input,
+.task-disabled-habit-control-bg,
+.checklist-component .input-group .input-group-append,
+#avatar-modal #backgrounds .background-set,
+.background-set,
+.disable-background,
+.drawer-content {
+    background-color: var(--background-color-2) !important;
+}
+
+
+/* Background 3 - Buttons, items to be separated from background */
+.header-bar,
+.task-content,
+.item,
+:not(.currency-tray):not(.form-inline) > .item-with-icon,
+.task,
+.tags-popup,
+.form-control,
+.diamond-btn:not(#create-task-btn),
+.btn.btn-flat,
+.box.white,
+.category-label,
+.challenge .well,
+.badge,
+.class-badge,
+.sidebar .challenge,
+.social-circle,
+.slider-button,
+.input-group .input-group-append,
+.input-group .input-group-prepend,
+.category-select,
+.quick-add,
+.modal-header,
+#task-modal .option-item-box:not([class*="modal-bg"]),
+#avatar-modal #backgrounds .purchase-background,
+.outer-option-background.locked,
+.purchase-set,
+.outer-option-background.active .option,
+.outer-option-background:not(.locked):not(.active) .option:hover,
+#subscription-form .subscription-bubble,
+.modal-body .popover-content-attr,
+#buy-modal .modal-footer,
+.drawer-title,
+.side-panel,
+.left-panel,
+.spell {
+    background-color: var(--background-color-3) !important;
+}
+
+/* Background 4 - Dialogs, dropdowns, hovered buttons */
+.collapse-checklist,
+.dropdown-menu,
+.vdp-datepicker__calendar,
+.social-circle:hover,
+.btn.btn-flat:hover,
+.introjs-tooltip,
+.category-box,
+.questRewards .reward-item,
+.left-panel .quest-col .quest-wrapper {
+    background-color: var(--background-color-4) !important;
+}
+
+/* Background 5 - Hovered surfaces on dropdowns */
+.vdp-datepicker__calendar header .next:not(.disabled):hover,
+.vdp-datepicker__calendar header .prev:not(.disabled):hover,
+.vdp-datepicker__calendar header .up:not(.disabled):hover {
+    background-color: var(--background-color-5) !important;
+}
+
+/* Selected item purple background */
+.conversation.active {
+    background-color: var(--background-color-purple) !important;
+}
+
+/* Purple surfaces */
+
+
+.filter:hover,
+#avatar-modal .customize-menu .menu-container.active,
+#avatar-modal .customize-menu .menu-container:hover {
+    color: var(--purple) !important;
+}
+
+.task-clickable-area .habitica-menu-dropdown .habitica-menu-dropdown-toggle:hover .svg-icon,
+.task-clickable-area .habitica-menu-dropdown.open .habitica-menu-dropdown-toggle .svg-icon,
+.official .svg-icon path:first-child {
+    fill: var(--purple);
+}
+
+  
+:not(.topbar-item) > .nav-link.active,
+.topbar-item.active {
+    box-shadow: inset 0 -4px 0 var(--purple) !important;
+}
+
+/* ICON COLORS */
+/* Gray logos */
+.diamond-btn:not(#create-task-btn) .svg-icon path,
+.btn.btn-secondary .svg-icon path {
+    fill: var(--text-secondary-color);
+}
+
+.collapse-checklist .svg-icon path {
+    fill: var(--text-secondary-color) !important;
+}
+
+.close-icon svg path,
+.slider-button .svg-icon path,
+.drawer-toggle-icon.svg-icon path {
+    stroke: var(--text-secondary-color) !important;
+}
+
+.dropdown-menu .dropdown-item .push-to-top path,
+.dropdown-menu .dropdown-item .push-to-bottom path {
+    stroke: var(--text-primary-color) !important;
+}
+
+.close {
+    color: var(--text-secondary-color) !important;
+}
+
+.vdp-datepicker__calendar header .next:after {
+    border-left-color: var(--text-secondary-color) !important;
+}
+
+.vdp-datepicker__calendar header .prev:after {
+    border-right-color: var(--text-secondary-color) !important;
+}
+
+#avatar-modal .customize-menu .menu-container.active .indicator,
+.sub-menu-item {
+    border-bottom-color: var(--background-color-1) !important;
+}
+
+#members-modal .modal-body .dropdown-menu li:first-child .dropdown-item svg path {
+    fill: var(--purple) !important;
+}
+
+#members-modal .modal-body .dropdown-menu li .dropdown-item {
+    fill: var(--text-secondary-color) !important;
+}
+
+#members-modal .modal-body .dropdown-menu li .dropdown-item svg path {
+    fill: var(--text-secondary-color) !important;
+}
+
+/* Purple Habitica logo */
+.svg-logo path:first-child {
+    fill: var(--purple) !important;
+}
+
+/* Invert black emoji colors */
+.habitica-emoji[alt="heavy_plus_sign"],
+.habitica-emoji[alt="heavy_minus_sign"] {
+    filter: invert(1);
+}
+
+/* Change white icon on purple background to black */
+.badge-clock svg path:first-child,
+.official .svg-icon path:nth-child(2) {
+    fill: var(--background-color-1);
+}
+
+.badge-clock svg path:nth-child(2) {
+    stroke: var(--background-color-1);
+}
+
+/* Lighten red buttons/icons */
+.dropdown-menu .dropdown-item .delete-task-item path {
+    fill: var(--red-dropdown) !important;
+}
+
+.dropdown-menu .dropdown-item .delete-task-item {
+    color: var(--red-dropdown) !important;
+}
+
+#task-modal .delete-task-btn .svg-icon svg path {
+    fill: var(--red) !important;
+}
+
+#task-modal .delete-task-btn .delete-text,
+.due-overdue {
+    color: var(--red) !important;
+}
+
+#task-modal .delete-task-btn:active,
+#task-modal .delete-task-btn:focus,
+#task-modal .delete-task-btn:hover {
+    text-decoration-color: var(--red) !important;
+}
+
+
+
+/* FORM CONTROLS  */
+input,
+input.form-control,
+textarea,
+textarea.form-control,
+select {
+    background-color: var(--background-color-1) !important;
+    border-color: var(--background-color-5) !important;
+    color: var(--text-primary-color) !important;
+}
+
+textarea.quick-add {
+    background-color: var(--background-color-2) !important;
+}
+
+/* Radio button */
+.custom-control .custom-control-label:before {
+    border-color: var(--text-secondary-color) !important;
+}
+
+/* Normal buttons */
+.btn-secondary,
+.dropdown > .btn-secondary.dropdown-toggle:not(.btn-success),
+.show > .btn-secondary.dropdown-toggle:not(.btn-success) {
+    background: var(--background-color-3) !important;
+    color: var(--text-primary-color) !important;
+}
+
+/* DIVIDER COLORS */
+hr,
+.input-group .input-group-append.input-group-icon,
+.input-group .input-group-prepend.input-group-icon,
+.tags-popup .tags-footer,
+.checklist-component .checklist-group,
+.tier-list li,
+.section,
+.chat-row .hr,
+.vdp-datepicker__calendar,
+.dropdown .dropdown-menu .dropdown-separated,
+.box,
+#achievements .achievement-list-item,
+.subscribe-option,
+.table td,
+.table th,
+.filter-panel .tags-category,
+.conversation,
+.disable-background,
+.card {
+    border-color: var(--background-color-5) !important;
+}
+
+.profile-section h2[data-v-bc94e650]:after,
+.divider {
+    background-color: var(--background-color-5) !important;
+}
+
+
+
+.toggle-switch-description.hasPopOver span {
+    border-color: var(--text-secondary-color) !important;
+}
+
+.action .svg-icon path {
+    fill: var(--text-hint-color) !important;
+}
+
+
+
+/* TEXT COLORS */
+/* Primary text */
+h1,
+h2,
+h3,
+h5,
+h6,
+table,
+label,
+p,
+.category-label,
+.dropdown-label,
+.btn.btn-flat:hover,
+.dropdown-item,
+.badge,
+.vdp-datepicker__calendar header,
+.no-notifications h2[data-v-27323d83],
+.no-notifications p[data-v-27323d83],
+.nav-link,
+.modal-dialog .text,
+label small a,
+.spell,
+.notification-content {
+    color: var(--text-primary-color) !important;
+}
+
+
+/* Secondary text */
+.challenge .count-label,
+.challenge .meta-item,
+.challenge .owner-item,
+.challenge .well .label,
+.challenge .well > div .value,
+.challenge .svg-icon path,
+.name,
+a.no-tier,
+.filter,
+.quick-add::placeholder,
+.collapse-checklist,
+.btn.btn-flat,
+.card-body .text,
+.dropdown-icon[data-v-5066db71],
+#task-modal [class*="modal-option-disabled"]:not(:hover) .option-item-label:not([class*="modal-text"]),
+.input-group .input-group-append.input-group-text,
+.input-group .input-group-prepend.input-group-text,
+#task-modal .task-modal-content input,
+#task-modal .task-modal-content input:focus,
+#avatar-modal .customize-menu .menu-container,
+.sub-menu-item,
+#private-message .toggle-switch-description,
+#subscription-form .subscription-bubble,
+.modal-body .popover-content-attr-cell.key.hasValue,
+.modal-body .popover-content-attr-cell.label.hasValue,
+#buy-modal .balance,
+span[data-v-06bf14d9],
+:not(topbar-item) > div > .nav-link:not(.dropdown-item),
+.btn-filters-secondary,
+a.standard-link[disabled=disabled],
+a:not([href]):not([tabindex]).standard-link[disabled=disabled],
+.gem-text,
+.action,
+.action .svg-icon {
+    color: var(--text-secondary-color) !important;
+}
+
+/* Hint text */
+.disabled,
+.task-disabled-daily-todo-control-content .task-notes,
+.task-disabled-daily-todo-control-content .task-title,
+.checklist-item-done,
+.modal-body .popover-content-attr-cell.key,
+.modal-body .popover-content-attr-cell.label:not(.green),
+input::placeholder,
+textarea.input-notes::placeholder,
+textarea::placeholder{
+    color: var(--text-hint-color) !important;
+}
+
+/* Link text */
+:not(.alert-info) > a:not(.nav-link):not(.dropdown-item):not(.btn)[href],
+.markdown a,
+.notification-bold-blue,
+a.standard-link, a:not([href]):not([tabindex]).standard-link {
+    color: var(--blue);
+}
+
+/* Danger/red text */
+.btn-filters-danger,
+.cancel {
+    color: var(--red) !important;
+}
+
+/* Currency text */
+
+.mana {
+    color: var(--text-mana-color) !important;
+}
+
+.gem-lock span,
+.gem + .price,
+.hourglass + .price,
+.price-label.gems,
+.challenge .challenge-prize .value,
+.challenge .challenge-prize .label {
+    color: var(--text-gem-color) !important;
+}
+
+.price-label.gold,
+.task-reward-control-bg .small-text {
+    color: var(--text-gold-color) !important;
+}
+
+.price-label.hourglasses {
+    color: var(--text-hourglass-color) !important;
+}
+
+/* Footer, purple-ish color text */
+footer h3,
+.left-panel .description,
+.header h2.sub-text,
+.task-notes p {
+    color: var(--text-footer-primary-color) !important;
+}
+
+footer a,
+footer div,
+#attributes .number,
+#allocation .box .number,
+#allocation .box .points,
+.conversation .username-row,
+#challenge-modal .summary-count {
+    color: var(--text-footer-secondary-color) !important;
+}
+
+.modal-body .popover-content-attr-cell.label.green {
+    color: var(--green) !important;
+}
+
+.purple-header,
+.benefits h2,
+.block-header,
+h1[data-v-50340e3a] {
+    color: var(--purple) !important;
+}
+
+/* Animate buttons */
+.social-circle {
+    transition: all .15s;
+}
+
+
+}
+
+@-moz-document domain("habitica.com") {
+/*setting of .create-btn .drop-down */
+.svg-icon:not(.topbar .svg-icon):not(.todo .svg-icon):not(.create-btn .svg-icon):not(.daily .svg-icon):not(.habit .svg-icon):not(.reward .svg-icon):not(.task-clickable-area .habitica-menu-dropdown.open .habitica-menu-dropdown-toggle):not(.official .svg-icon):not(.btn.btn-secondary .svg-icon):not(.diamond-btn:not(#create-task-btn) .svg-icon):not(.collapse-checklist .svg-icon):not(.action .svg-icon) svg {color:#FF797E !important}
+
+
+}
+
+@-moz-document domain("habitica.com") {
+/* Nav bar setting movement! ; less gap btn header&tasks: collected from GreyMode */
+
+/* delete party display */
+div.no-party, 
+div.view-party, 
+div.party-members {
+    display: none !important;
+}
+
+/* nav bar & filter movement */
+div.tasks-navigation > .offset-md-4 {
+    margin-left: auto !important;
+    right: 10px !important;
+    top: -90px !important;
+}
+
+/* progress bar section width */
+#app-header .member-details.d-flex .progress {
+    width: 50vw !important 
+}
+
+/* tags filter panel movement */
+div.filter-panel {
+    left: 20vw !important;
+    width: 70% !important;
+}
+
+/* gap adjustment */
+div.tasks-navigation
+  {
+    margin-top: -95px !important; 
+    height: -120px !important;
+  }
+
+
+}
+
+@-moz-document domain("habitica.com") {
+/* settings of .nav .filter-panel from PealpoolMode */
+
+.tasks-navigation .tags-list .col-6 {
+	width: auto !important;
+	flex: none !important;
+	padding: 0px !important;
+}
+
+.tasks-navigation .col-md-4 {
+	width: 100% !important;
+	max-width: 70% !important;
+	flex: 0 0 100% !important;
+}
+
+
+
+
+
+}
